@@ -1,0 +1,5 @@
+# Extra, optional dependency — only needed to run the real PySpark evidence
+# scripts in spark_jobs/ (spark_ingestion.py, spark_sql_analysis.py,
+# spark_mllib_model.py). Requires a working Java installation.
+# Install with: pip install -r requirements-spark.txt
+pyspark>=3.5.0
